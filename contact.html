@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | HelpsAap IT Services</title>
+<meta name="description" content="Contact HelpsAap IT Services in Kochi, Kerala. Phone, email and address.">
+<link rel="canonical" href="https://helpsaap.com/contact.html">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<meta property="og:title" content="Contact Us | HelpsAap IT Services">
+<meta property="og:description" content="Contact HelpsAap IT Services in Kochi, Kerala. Phone, email and address.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://helpsaap.com/contact.html">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"HelpsAap IT Services","url":"https://helpsaap.com",
+"logo":"https://helpsaap.com/assets/logo.png","email":"helpsaap@gmail.com","telephone":"+919207777130",
+"address":{"@type":"PostalAddress","streetAddress":"Suite C80, 39/2475-B1, LR Towers, SJRRRA, South Janatha Road","addressLocality":"Kochi","addressRegion":"Kerala","postalCode":"682025","addressCountry":"IN"}}
+</script>
+</head>
+<body>
+<header><div class="bar">
+<a class="brand" href="index.html"><img src="assets/logo.png" alt="HelpsAap logo"><span>HelpsAap IT Services</span></a>
+<nav><a href="index.html" class="">Home</a><a href="about.html" class="">About Us</a><a href="services.html" class="">Services</a><a href="projects.html" class="">Our Projects</a><a href="contact.html" class="on">Contact Us</a></nav>
+</div></header>
+<main>
+<section><div class="wrap"><h1>Contact Us</h1>
+<div class="grid">
+<div class="card"><h3>HelpsAap IT Services</h3>
+<p>Suite C80, 39/2475-B1, LR Towers, SJRRRA, South Janatha Road, Kochi, Kerala, India – 682025</p>
+<p>Phone: <a href="tel:+919207777130">+91 9207777130</a><br>Email: <a href="mailto:helpsaap@gmail.com">helpsaap@gmail.com</a></p></div>
+<div class="card"><h3>Send us a message</h3>
+<form id="f">
+<label for="n">Your name</label><input id="n" required>
+<label for="e">Your email</label><input id="e" type="email" required>
+<label for="m">Message</label><textarea id="m" rows="5" required></textarea>
+<p><button class="btn" type="submit">Send by email</button></p>
+<p style="font-size:13px;color:#4b5b52">This opens your email app with the message ready to send to helpsaap@gmail.com.</p>
+</form></div>
+</div></div></section>
+<script>
+document.getElementById('f').addEventListener('submit',function(ev){
+ev.preventDefault();
+var n=document.getElementById('n').value,e=document.getElementById('e').value,m=document.getElementById('m').value;
+var body='Name: '+n+'\nEmail: '+e+'\n\n'+m;
+window.location.href='mailto:helpsaap@gmail.com?subject='+encodeURIComponent('Website enquiry from '+n)+'&body='+encodeURIComponent(body);
+});
+</script>
+</main>
+<footer><div class="wrap">
+<p><strong>HelpsAap IT Services</strong><br>Suite C80, 39/2475-B1, LR Towers, SJRRRA, South Janatha Road, Kochi, Kerala, India – 682025<br>
+Phone: <a href="tel:+919207777130">+91 9207777130</a> &middot; Email: <a href="mailto:helpsaap@gmail.com">helpsaap@gmail.com</a><br>
+GSTIN: 32AXRPA9310P1Z6 &middot; Website: <a href="https://helpsaap.com">helpsaap.com</a></p>
+<p><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Conditions</a><a href="contact.html">Contact Us</a></p>
+<p>&copy; 2026 HelpsAap IT Services. All rights reserved.</p>
+</div></footer>
+</body>
+</html>
