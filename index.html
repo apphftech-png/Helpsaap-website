@@ -14,37 +14,58 @@
 <link rel="stylesheet" href="style.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"HelpsAap IT Services","url":"https://helpsaap.com",
-"logo":"https://helpsaap.com/assets/logo.png","email":"helpsaap@gmail.com","telephone":"+919207777130",
+"logo":"https://helpsaap.com/assets/mark.png","email":"helpsaap@gmail.com","telephone":"+919207777130",
 "address":{"@type":"PostalAddress","streetAddress":"Suite C80, 39/2475-B1, LR Towers, SJRRRA, South Janatha Road","addressLocality":"Kochi","addressRegion":"Kerala","postalCode":"682025","addressCountry":"IN"}}
 </script>
 </head>
 <body>
 <header><div class="bar">
-<a class="brand" href="index.html"><img src="assets/logo.png" alt="HelpsAap logo"><span>HelpsAap IT Services</span></a>
-<nav><a href="index.html" class="on">Home</a><a href="about.html" class="">About Us</a><a href="services.html" class="">Services</a><a href="projects.html" class="">Our Projects</a><a href="contact.html" class="">Contact Us</a></nav>
+<a class="brand" href="index.html" aria-label="HelpsAap IT Services home"><img src="assets/mark.png" alt="HelpsAap logo"><span class="bt"><b><span>Helps</span><i>Aap</i></b><small>IT Services</small></span></a>
+<button class="mbtn" aria-label="Menu" onclick="document.getElementById('nv').classList.toggle('open')">&#9776;</button>
+<nav id="nv"><a href="index.html" class="on">Home</a><a href="about.html">About Us</a><div class="dd"><a href="services.html">Services <svg class="ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></a><div class="menu"><a href="services.html#android">Android App Development</a><a href="services.html#flutter">Flutter App Development</a><a href="services.html#website">Website Development</a><a href="services.html#webapp">Web Application Development</a><a href="services.html#software">Software Development</a><a href="services.html#support">IT Support Services</a></div></div><a href="projects.html">Our Projects</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Conditions</a><a href="contact.html">Contact Us</a><a class="cta" href="contact.html"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg> Get in Touch</a></nav>
 </div></header>
 <main>
 <div class="hero"><div class="wrap">
-<h1>Building Digital Solutions for a Better Tomorrow</h1>
-<p>HelpsAap IT Services designs and develops mobile apps, websites and software, and provides IT support, from Kochi, Kerala, India.</p>
-<p><a class="btn" href="contact.html">Contact Us</a><a class="btn alt" href="services.html">Our Services</a></p>
+<div>
+<h1>HelpsAap IT Services</h1>
+<h2>Building Digital Solutions<br>for a <em>Better Tomorrow</em></h2>
+<p class="lead">Your trusted partner for Mobile App Development, Web Development and IT Services.</p>
+<div class="chips">
+<div class="chip"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg><span>Mobile App<br>Development</span></div>
+<div class="chip"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Web Development</span></div>
+<div class="chip"><svg class="ic" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg><span>IT Services</span></div>
+</div>
+<p style="margin:0"><a class="btn" href="services.html">Explore Our Services <svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a><span class="pill"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Kochi, Kerala, India</span></p>
+</div>
+<div class="hero-img"><img src="assets/hero.jpg" alt="A phone showing the HelpsAap IT Services logo next to a laptop"></div>
 </div></div>
-<section><div class="wrap"><h2>What we do</h2>
-<div class="grid">
-<div class="card"><h3>Mobile App Development</h3><p>Android and cross-platform apps built with Flutter, from idea to release.</p></div>
-<div class="card"><h3>Web Development</h3><p>Business websites and web applications that are fast, clear and easy to use.</p></div>
-<div class="card"><h3>IT Services</h3><p>Software development and IT support for small businesses.</p></div>
+<section><div class="wrap"><div class="row3">
+<div class="photo"><img src="assets/kochi.jpg" alt="Chinese fishing nets at sunset in Kochi, Kerala"></div>
+<div>
+<p class="kicker">About Us</p>
+<h2>HelpsAap IT Services</h2>
+<p>We are a Kochi based IT company, dedicated to delivering innovative and reliable digital solutions. Our mission is to empower businesses and individuals with cutting-edge technology and exceptional support.</p>
+<ul class="ticks"><li><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><b>Our Mission:</b> Drive digital growth through innovation</span></li>
+<li><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><span><b>Our Vision:</b> Be a leading IT solutions provider in India</span></li></ul>
+<a class="btn" href="about.html">Learn More <svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+</div>
+<div class="svc"><p class="kicker">Our Services</p><div class="sgrid"><a class="stile" href="services.html#android"><svg class="ic" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>Android App<br>Development</a><a class="stile" href="services.html#flutter"><svg class="ic" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>Flutter App<br>Development</a><a class="stile" href="services.html#website"><svg class="ic" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Website<br>Development</a><a class="stile" href="services.html#webapp"><svg class="ic" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>Web Application<br>Development</a><a class="stile" href="services.html#software"><svg class="ic" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>Software<br>Development</a><a class="stile" href="services.html#support"><svg class="ic" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>IT Support<br>Services</a></div></div>
 </div></div></section>
-<section class="soft"><div class="wrap"><h2>Based in Kochi, Kerala</h2>
-<p>Suite C80, 39/2475-B1, LR Towers, SJRRRA, South Janatha Road, Kochi, Kerala, India – 682025.<br>Phone: <a href="tel:+919207777130">+91 9207777130</a> &middot; Email: <a href="mailto:helpsaap@gmail.com">helpsaap@gmail.com</a></p>
-</div></section>
+<section style="padding-top:0"><div class="wrap"><div class="banner">
+<div class="rk">&#128640;</div>
+<div style="flex:1;text-align:center;min-width:240px"><h2>Upcoming Apps</h2><p>Innovative solutions are on the way. Stay tuned for our upcoming apps!</p></div>
+<a class="btn" href="projects.html">Stay Updated <svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+</div></div></section>
 </main>
 <footer><div class="wrap">
-<p><strong>HelpsAap IT Services</strong><br>Suite C80, 39/2475-B1, LR Towers, SJRRRA, South Janatha Road, Kochi, Kerala, India – 682025<br>
-Phone: <a href="tel:+919207777130">+91 9207777130</a> &middot; Email: <a href="mailto:helpsaap@gmail.com">helpsaap@gmail.com</a><br>
-GSTIN: 32AXRPA9310P1Z6 &middot; Website: <a href="https://helpsaap.com">helpsaap.com</a></p>
-<p><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Conditions</a><a href="contact.html">Contact Us</a></p>
-<p>&copy; 2026 HelpsAap IT Services. All rights reserved.</p>
+<div class="fgrid">
+<div class="fb"><img class="fm" src="assets/mark.png" alt=""><div><b>HelpsAap</b><small>IT Services</small><p style="margin:8px 0 0;font-size:13px">Building Digital Solutions for a Better Tomorrow</p></div></div>
+<div class="fi"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><div><b>Our Address</b>Suite C80, 39/2475-B1, LR Towers,<br>SJRRRA, South Janatha Road,<br>Kochi, Kerala, India – 682025.</div></div>
+<div class="fi"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><div><b>Phone</b><a href="tel:+919207777130">+91 9207777130</a></div></div>
+<div class="fi"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><div><b>Email</b><a href="mailto:helpsaap@gmail.com">helpsaap@gmail.com</a></div></div>
+<div class="fl"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Conditions</a><a href="sitemap.xml">Sitemap</a></div>
+</div>
+<div class="fbot"><span>&copy; 2026 HelpsAap IT Services. All Rights Reserved.</span><span>GSTIN: 32AXRPA9310P1Z6</span></div>
 </div></footer>
 </body>
 </html>
