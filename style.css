@@ -94,3 +94,7 @@ footer a{color:#d7efe0}
  .fgrid{grid-template-columns:1fr 1fr}
 }
 @media(max-width:560px){.fgrid{grid-template-columns:1fr}.bt b{font-size:24px}.sgrid{grid-template-columns:repeat(2,1fr)}.pill{margin:10px 0 0}}
+.r{font-size:.4em;font-weight:500;vertical-align:super;line-height:0;margin-left:2px;letter-spacing:0}
+.fgrid.noaddr{grid-template-columns:1.5fr 1.2fr 1.3fr 1fr}
+@media(max-width:980px){.fgrid.noaddr{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.fgrid.noaddr{grid-template-columns:1fr}}
